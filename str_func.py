@@ -9,3 +9,5 @@ def uppercase_string(input_string):
 string = "Hello, World!"
 upper_string = uppercase_string(string)
 print(upper_string) # выводит "HELLO, WORLD!"
+
+docstring
