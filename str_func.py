@@ -1,6 +1,6 @@
 """
-docstring
 Функция которая принимает на вход строку и возвращает ее в верхнем регистре.
+:return: строка с заглавными буквами каждого слова
 """
 def uppercase_string(input_string):
     return input_string.upper()
