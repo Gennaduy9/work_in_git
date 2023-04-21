@@ -14,7 +14,6 @@ print(f"{upper_string}\n") # выводит "HELLO, WORLD!"
 def capitalize_words(string):
     """
     Функция принимает строку и делает заглавными первые буквы каждого слова в ней.
-    :param string: строка
     :return: строка с заглавными первыми буквами каждого слова
     """
     return ' '.join(word.capitalize() for word in string.split())
