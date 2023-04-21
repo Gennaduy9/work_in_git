@@ -11,3 +11,4 @@ upper_string = uppercase_string(string)
 print(upper_string) # выводит "HELLO, WORLD!"
 
 docstring
+
