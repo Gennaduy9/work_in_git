@@ -1,7 +1,6 @@
 def uppercase_string(input_string):
     """
     Функция которая принимает на вход строку и возвращает ее в верхнем регистре.
-    :return: строка с заглавными буквами каждого слова
     """
     return input_string.upper()
 
@@ -22,7 +21,6 @@ def capitalize_words(string):
 
 print(capitalize_words("hello world")) # Hello World
 print(capitalize_words("the quick brown fox")) # The Quick Brown Fox
-print(capitalize_words("python is awesome")) # Python Is Awesome
 
 help(capitalize_words)
 
