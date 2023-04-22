@@ -24,5 +24,11 @@ print(capitalize_words("the quick brown fox")) # The Quick Brown Fox
 
 help(capitalize_words)
 
+def file(a, b):
+    """
+    Функцию, которая складывает два числа
+    """
+    return a + b
+
 
 
