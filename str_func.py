@@ -26,7 +26,7 @@ help(capitalize_words)
 
 def file(a, b):
     """
-    Функцию, которая складывает два числа
+    
     """
     return a + b
 
