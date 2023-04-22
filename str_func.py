@@ -25,3 +25,7 @@ print(capitalize_words("the quick brown fox")) # The Quick Brown Fox
 print(capitalize_words("python is awesome")) # Python Is Awesome
 
 help(capitalize_words)
+
+
+def file3(a, b)
+    return a + b
