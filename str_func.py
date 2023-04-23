@@ -1,4 +1,3 @@
-# Что еще добавить, чтобы спровоцировать конфликт м между ветками
 
 def uppercase_string(input_string):
     """
@@ -26,14 +25,6 @@ print(capitalize_words("hello world")) # Hello World
 print(capitalize_words("the quick brown fox")) # The Quick Brown Fox
 
 
-help(capitalize_words)
-help(uppercase_string)
-
-def file(a, b):
-    """
-    Функцию, которая складывает два числа
-    """
-    return a + b
 
 
 
