@@ -1,3 +1,15 @@
+def uppercase_string(input_string):
+    """
+    Функция которая принимает на вход строку и возвращает ее в верхнем регистре.
+    """
+    return input_string.upper()
+
+# Пример использования
+
+string = "Hello, World!"
+upper_string = uppercase_string(string)
+print(f"{upper_string}\n") # выводит "HELLO, WORLD!"
+
 def capitalize_words(string):
     """
     Функция принимает строку и делает заглавными первые буквы каждого слова в ней.
@@ -9,6 +21,16 @@ def capitalize_words(string):
 
 print(capitalize_words("hello world")) # Hello World
 print(capitalize_words("the quick brown fox")) # The Quick Brown Fox
+
+
+help(capitalize_words)
+help(uppercase_string)
+
+def file(a, b):
+    """
+    Функцию, которая складывает два числа
+    """
+    return a + b
 
 
 
