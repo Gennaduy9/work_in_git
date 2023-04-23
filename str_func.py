@@ -1,15 +1,3 @@
-def uppercase_string(input_string):
-    """
-    Функция которая принимает на вход строку и возвращает ее в верхнем регистре.
-    """
-    return input_string.upper()
-
-# Пример использования
-
-string = "Hello, World!"
-upper_string = uppercase_string(string)
-print(f"{upper_string}\n") # выводит "HELLO, WORLD!"
-
 def capitalize_words(string):
     """
     Функция принимает строку и делает заглавными первые буквы каждого слова в ней.
