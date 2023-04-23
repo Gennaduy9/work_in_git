@@ -1,6 +1,7 @@
 def uppercase_string(input_string):
     """
     Функция которая принимает на вход строку и возвращает ее в верхнем регистре.
+    :return: строка с заглавными буквами каждого слова
     """
     return input_string.upper()
 
